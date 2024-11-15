@@ -10,9 +10,11 @@ import com.carlos.rocket.gestao_vagas.modules.candidatos.Entity.CandidatosEntiti
 @RestController
 @RequestMapping("/candidato")
 public class CandidatosController {
-    @PostMapping("/")
+    @PostMapping("/") 
     public void create(@RequestBody CandidatosEntities candidatosEntities) {
         System.out.println("Candidato");
         System.out.println(candidatosEntities.getNome());
+        System.out.println(candidatosEntities.getEmail());
+        
     }
 }
