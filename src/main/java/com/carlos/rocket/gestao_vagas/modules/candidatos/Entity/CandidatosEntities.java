@@ -34,4 +34,9 @@ public class CandidatosEntities {
 
     @CreationTimestamp
     private LocalDateTime createdAt;
+
+    public Object ifPresent(Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'ifPresent'");
+    }
 }
