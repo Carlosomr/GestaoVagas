@@ -5,7 +5,6 @@ import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.carlos.rocket.gestao_vagas.modules.candidatos.Entity.CandidatosEntities;
-import java.util.List;
 import java.util.Optional;
 
 
